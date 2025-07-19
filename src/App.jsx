@@ -15,7 +15,11 @@ function App() {
                 </button>
              </div>
         
-        <Modal isOpen={OpenModal}/>
+        <Modal isOpen={OpenModal} setMODALOpen={ () => setOpenModal(!OpenModal)}> 
+        {/* children é o que vai ser renderizado dentro do modal */}
+        <h1>conteudo do modal</h1>
+            
+        </Modal>
         </div>
     )
 }
