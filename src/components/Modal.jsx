@@ -11,7 +11,7 @@ const BACKGROUND_STYLES = {
 
 }
 
-const MODAL_STYLES = {
+  const MODAL_STYLES = {
   position: 'fixed',
   top: '50%',
   left: '50%',
